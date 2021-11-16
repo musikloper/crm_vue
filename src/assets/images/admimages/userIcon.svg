@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>3F6E29B3-DC4A-44C1-B97A-A2EBC27C7B01</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Manager" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mission-Review-1" transform="translate(-372.000000, -412.000000)">
+            <g id="Group" transform="translate(372.000000, 412.000000)">
+                <g id="Group-2">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Oval" fill="#8881FF" opacity="0.6" xlink:href="#path-1"></use>
+                    <rect id="Rectangle" fill="#8881FF" mask="url(#mask-2)" x="0" y="13" width="21" height="7"></rect>
+                    <path d="M9.79383577,10.4872183 C8.76990036,10.2747858 8,9.3614375 8,8.26691729 C8,7.01493344 9.00735931,6 10.25,6 C11.4926407,6 12.5,7.01493344 12.5,8.26691729 C12.5,9.31750836 11.7906602,10.2011785 10.8281918,10.4582864 L11.25,14.5639098 L9.375,14.5639098 L9.79383577,10.4872183 Z" id="Combined-Shape" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

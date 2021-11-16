@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>EF54674C-A195-46B6-8BA8-5DBCC7ED6ABB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="25" cy="25" r="25"></circle>
+        <filter x="-11.0%" y="-7.0%" width="122.0%" height="122.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.145869755 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="100%" y1="0.00143486988%" x2="0%" y2="99.9985651%" id="linearGradient-3">
+            <stop stop-color="#FD2C7A" offset="0%"></stop>
+            <stop stop-color="#FF7255" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Manager" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mission-Review-1" transform="translate(-378.000000, -694.000000)">
+            <g id="Nope" transform="translate(381.000000, 695.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M24.8088182,20.8944639 L19.7265058,15.8121515 C18.6462874,14.7319331 16.8896985,14.7277973 15.8088182,15.8086775 C14.7301374,16.8873583 14.7294934,18.6435662 15.8122923,19.7263651 L20.8946047,24.8086775 L15.8122923,29.8909899 C14.7294934,30.9737888 14.7301374,32.7299966 15.8088182,33.8086775 C16.8896985,34.8895577 18.6462874,34.8854219 19.7265058,33.8052035 L24.8088182,28.7228911 L29.8911307,33.8052035 C30.9713491,34.8854219 32.727938,34.8895577 33.8088182,33.8086775 C34.8874991,32.7299966 34.8881431,30.9737888 33.8053442,29.8909899 L28.7230318,24.8086775 L33.8053442,19.7263651 C34.8881431,18.6435662 34.8874991,16.8873583 33.8088182,15.8086775 C32.727938,14.7277973 30.9713491,14.7319331 29.8911307,15.8121515 L24.8088182,20.8944639 Z" fill="url(#linearGradient-3)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

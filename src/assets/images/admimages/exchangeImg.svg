@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+    <defs>
+        <linearGradient id="dcirhwpija" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#4B67D5"/>
+            <stop offset="100%" stop-color="#0D35E7"/>
+        </linearGradient>
+        <linearGradient id="xaysgag2ub" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#4B67D5"/>
+            <stop offset="100%" stop-color="#0D35E7"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-16 -370) translate(16 370)">
+                <circle cx="22.5" cy="22.5" r="22.25" fill="#FFF" stroke="#ABABAB" stroke-width=".5"/>
+                <g>
+                    <g>
+                        <path fill="url(#dcirhwpija)" fill-rule="nonzero" d="M4.312 20L0 20 8.346 0 11.611 0 19.927 20 15.584 20 14.044 15.984 5.944 15.984z" transform="translate(8 13)"/>
+                        <g>
+                            <g>
+                                <path fill="#FFF" d="M2.547 0.226L1.774 2.201 1.778 2.197 2.082 2.885 0.198 4.971 1.013 5.81 0.344 8.742 7.112 8.533 4.184 0.176z" transform="translate(8 13) translate(6.43 3.946) scale(-1 1) rotate(2 0 -204.957)"/>
+                                <path fill="#000" d="M3.347 2.873L4.306 2.077 5.519 2.077 4.73 2.873zM6.684 6.443l-1.165.119 1.165.29v-.409z" transform="translate(8 13) translate(6.43 3.946)"/>
+                            </g>
+                            <path fill="#CACACA" d="M3.65 8.637L3.662 5.002 2.4 2.077 0.361 8.637z" transform="translate(8 13) translate(6.43 3.946)"/>
+                        </g>
+                    </g>
+                    <path fill="url(#xaysgag2ub)" fill-rule="nonzero" d="M23.55 0.448L27.952 0.448 27.952 19.641 23.55 19.641z" transform="translate(8 13)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

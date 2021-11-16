@@ -1,0 +1,477 @@
+/*=========================================================================================
+  File Name: main.scss
+  Description: Main scss file. Imports other scss partials from 'vuesax' folder
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuesax Admin - VueJS Dashboard Admin Template
+  Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+
+@import "vuesax/variables";
+
+@import "vuesax/layout";
+@import "vuesax/typography";
+@import "vuesax/misc";
+@import "vuesax/extraComponents";
+@import "vuesax/themes";
+@import "vuesax/routerAnimations";
+@import "vuesax/transitions";
+
+@import "vuesax/customClasses";
+
+// Vuesax fixes and enhancments
+@import "vuesax/fixesVuesax";
+
+// Tailwind Fixes
+@import "vuesax/tailwindFix";
+
+@import "vue-select/src/scss/vue-select.scss";
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
+@font-face {
+  font-family: 'Noto Sans KR medium';
+  src: url('/fonts/NotoSansKR-Medium.woff');
+}
+@font-face {
+  font-family: 'Noto Sans KR reqular';
+  src: url('/fonts/NotoSansKR-Regular.woff');
+}
+@font-face {
+  font-family: 'RedHatText-Medium';
+  src: url('/fonts/RedHatDisplay-Medium.otf');
+}
+@font-face {
+  font-family: 'RedHatText-Reqular';
+  src: url('/fonts/RedHatDisplay-Regular.otf');
+}
+@font-face { 
+  font-family: 'NanumSquareRoundB'; 
+  src: url('../fonts/NanumSquareRoundB.ttf') format('truetype'); 
+}
+
+@font-face { 
+  font-family: 'NanumSquareRoundL'; 
+  src: url('../fonts/NanumSquareRoundL.ttf') format('truetype'); 
+}
+
+@font-face{
+  font-family: 'GmarketSansBold';
+  src: url('/fonts/GmarketSansBold.otf');
+  src: url('../fonts/GmarketSansTTFBold.ttf') format('truetype'); 
+}
+
+@font-face{
+  font-family: 'GmarketSansLight';
+  src: url('/fonts/GmarketSansLight.otf');
+  src:url('../fonts/GmarketSansTTFLight.ttf') format('truetype'); 
+}
+
+@font-face{
+  font-family: 'GmarketSansMedium';
+  src: url('/fonts/GmarketSansMedium.otf');
+  src:url('../fonts/GmarketSansTTFMedium.ttf') format('truetype'); 
+}
+
+@font-face { 
+  font-family: 'AppleSDGothicNeoEB'; 
+  src:url('../fonts/AppleSDGothicNeoEB.ttf') format('truetype'); 
+}
+
+@font-face { 
+  font-family: 'AppleSDGothicNeoM'; 
+  src: url('../fonts/AppleSDGothicNeoM.ttf') format('truetype'); 
+ }
+
+@font-face { 
+  font-family: 'AppleSDGothicNeoH'; 
+  src: url('../fonts/AppleSDGothicNeoH.ttf') format('truetype'); 
+ }
+
+@font-face { 
+  font-family: 'AppleSDGothicNeoB'; 
+  src: url('../fonts/AppleSDGothicNeoB.ttf') format('truetype'); 
+ }
+
+@font-face { 
+  font-family: 'AppleSDGothicNeoL'; 
+  src: url('../fonts/AppleSDGothicNeoL.ttf') format('truetype'); 
+}
+@font-face { 
+  font-family: 'AppleSDGothicNeoR'; 
+  src: url('../fonts/AppleSDGothicNeoR.ttf') format('truetype'); 
+}
+@font-face { 
+  font-family: 'AppleSDGothicNeoSB'; 
+  src: url('../fonts/AppleSDGothicNeoSB.ttf') format('truetype'); 
+}
+
+
+
+@font-face { 
+  font-family: 'AppleSDGothicNeo'; 
+  src: url('../fonts/AppleSDGothicNeoH.ttf') format('truetype'); 
+  font-weight: 900;
+}
+@font-face { 
+  font-family: 'AppleSDGothicNeo'; 
+  src:url('../fonts/AppleSDGothicNeoEB.ttf') format('truetype'); 
+  font-weight: 800;
+}
+
+@font-face { 
+  font-family: 'AppleSDGothicNeo'; 
+  src: url('../fonts/AppleSDGothicNeoB.ttf') format('truetype'); 
+  font-weight: 700;
+}
+@font-face { 
+  font-family: 'AppleSDGothicNeo'; 
+  src: url('../fonts/AppleSDGothicNeoSB.ttf') format('truetype'); 
+  font-weight: 600;
+}
+@font-face { 
+  font-family: 'AppleSDGothicNeo'; 
+  src: url('../fonts/AppleSDGothicNeoM.ttf') format('truetype'); 
+  font-weight: 500;
+}
+@font-face { 
+  font-family: 'AppleSDGothicNeo'; 
+  src: url('../fonts/AppleSDGothicNeoR.ttf') format('truetype'); 
+  font-weight: 400;
+}
+@font-face { 
+  font-family: 'AppleSDGothicNeo'; 
+  src: url('../fonts/AppleSDGothicNeoL.ttf') format('truetype'); 
+  font-weight: 300;
+}
+
+
+@font-face{
+  font-family: 'GmarketSans';
+  src: url('/fonts/GmarketSansBold.otf');
+  src: url('../fonts/GmarketSansTTFBold.ttf') format('truetype'); 
+  font-weight: 700;
+}
+@font-face{
+  font-family: 'GmarketSans';
+  src: url('/fonts/GmarketSansMedium.otf');
+  src:url('../fonts/GmarketSansTTFMedium.ttf') format('truetype'); 
+  font-weight: 400;
+}
+@font-face{
+  font-family: 'GmarketSans';
+  src: url('/fonts/GmarketSansLight.otf');
+  src:url('../fonts/GmarketSansTTFLight.ttf') format('truetype'); 
+  font-weight: 300;
+}
+*{
+  text-decoration: revert;
+  color: rgba(0,0,0,0.87);
+}
+
+.textCenter{
+  text-align: center !important;
+}
+.textRight{
+  text-align: right !important;
+}
+.marginTop5{
+  margin-top: 5px !important;
+}
+.marginTop10{
+  margin-top: 10px !important;
+}
+.marginTop15{
+  margin-top: 15px !important;
+}
+.marginTop20{
+  margin-top: 20px !important;
+}
+.marginBottom5{
+  margin-bottom: 5px !important;
+}
+.marginBottom10{
+  margin-bottom: 10px !important;
+}
+.marginBottom15{
+  margin-bottom: 15px !important;
+}
+.marginBottom20{
+  margin-bottom: 20px !important;
+}
+.marginLeft5{
+  margin-left: 5px !important;
+}
+.marginLeft10{
+  margin-left: 10px !important;
+}
+.marginLeft15{
+  margin-left: 15px !important;
+}
+.marginLeft20{
+  margin-left: 20px !important;
+}
+.marginRight5{
+  margin-right: 5px !important;
+}
+.marginRight10{
+  margin-right: 10px !important;
+}
+.marginRight15{
+  margin-right: 15px !important;
+}
+.marginRight20{
+  margin-right: 20px !important;
+}
+.black1{
+  color: rgba(0,0,0,0.87);
+}
+.black2{
+  color: rgba(0,0,0,0.54);
+}
+
+
+.vm--modal{
+  border-radius: 7px;
+  padding: 0 10px 10px;
+  .modalHeader{
+      height: 60px;
+      padding-top: 14px;
+      font-size: 20px;
+      line-height: 1.4;
+      font-weight: bold;
+      text-align: center;
+      color: rgba(0,0,0,0.87)
+  }
+  .modalCloseButton{
+      position: absolute;
+      cursor: pointer;
+      top: 10px;
+      right: 10px;
+      z-index: 1000;
+  }
+}
+
+.container{
+  .title{
+    font-family: "GmarketSans";
+    font-weight: bold;
+    line-height: 1.17;
+    font-size: 24px;
+    margin-bottom: 18px;
+  }
+  .subTitle{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 18px 0;
+  }
+}
+
+
+
+.vs-tag{
+  .vs__dropdown-menu{
+    display: none;
+  }
+  .vs__selected-options{
+    width: 100%;
+    max-height: 500px;
+  }
+}
+.vs-category{
+  .vs__selected-options{
+    width: 100%;
+    max-height: 500px;
+  }
+}
+
+.v-select, .content {
+  background-color: white;
+}
+.vs__selected-options{
+  width: 100%;
+  max-height: 2.35rem;
+  padding: .35rem;
+  -webkit-box-direction: normal;
+  .selected-tag{
+    margin: 0;
+    padding-top: 0.2rem;
+  }
+}
+.vs__actions{
+position: absolute;
+top: 0.7rem;
+right: 0px;
+// .vs__open-indicator{
+//   height: 27px;
+// }
+}
+
+.tooltip {
+  display: block !important;
+  z-index: 10000;
+
+  .tooltip-inner {
+    background: black;
+    color: white;
+    border-radius: 16px;
+    padding: 5px 10px 4px;
+  }
+
+  .tooltip-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    margin: 5px;
+    border-color: black;
+  }
+
+  &[x-placement^="top"] {
+    margin-bottom: 5px;
+
+    .tooltip-arrow {
+      border-width: 5px 5px 0 5px;
+      border-left-color: transparent !important;
+      border-right-color: transparent !important;
+      border-bottom-color: transparent !important;
+      bottom: -5px;
+      left: calc(50% - 5px);
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  &[x-placement^="bottom"] {
+    margin-top: 5px;
+
+    .tooltip-arrow {
+      border-width: 0 5px 5px 5px;
+      border-left-color: transparent !important;
+      border-right-color: transparent !important;
+      border-top-color: transparent !important;
+      top: -5px;
+      left: calc(50% - 5px);
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  &[x-placement^="right"] {
+    margin-left: 5px;
+
+    .tooltip-arrow {
+      border-width: 5px 5px 5px 0;
+      border-left-color: transparent !important;
+      border-top-color: transparent !important;
+      border-bottom-color: transparent !important;
+      left: -5px;
+      top: calc(50% - 5px);
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &[x-placement^="left"] {
+    margin-right: 5px;
+
+    .tooltip-arrow {
+      border-width: 5px 0 5px 5px;
+      border-top-color: transparent !important;
+      border-right-color: transparent !important;
+      border-bottom-color: transparent !important;
+      right: -5px;
+      top: calc(50% - 5px);
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &[aria-hidden='true'] {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .15s, visibility .15s;
+  }
+
+  &[aria-hidden='false'] {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .15s;
+  }
+}
+.inner-subtitle {
+  // float: left;
+  display: block;
+  margin: 27px 40px 27px 0px;
+  border-left: 4px solid #3c3e40;
+  font-weight: bold;
+}
+.inner-subtitle p {
+  padding-left: 24px;
+  font-weight: bold;
+}
+.news-rel {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 2px solid #000;
+  text-decoration: none;
+}
+.news-detail {
+  font-family: 'Noto Sans KR medium', sans-serif;
+  width: 786px;
+}
+.news-detail h2 {
+  padding: 0 0 40px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.news-detail .article {
+  line-height: normal;
+  padding: 0 90px;
+  font-size: 15px;
+  font-family: 'Noto Sans KR reqular', sans-serif;
+  color: black;
+}
+.news-detail .article .figure {
+  display: block;
+  margin: 0 auto;
+  // width: 600px;
+}
+.news-detail .article .figure img {
+  display: block;
+  margin: 0 auto;
+}
+.news-detail .article .figure span {
+  display: block;
+  margin: 10px 0 35px;
+  color: #9b9b9b;
+  font-weight: 700;
+  text-align: left;
+}
+.news-detail .information {
+    margin: 20px 0 35px;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+.news-detail .information:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.news-detail .information li {
+    float: left;
+    list-style: none;
+}
+.news-detail .information ul:first-child {
+    float: left;
+    color: #9b9b9b;
+}
+.news-detail .information ul:first-child li {
+    padding: 0 10px;
+    border-left: 1px solid #9B9B9B;
+    font-weight: 500;
+}
+.news-detail .information ul:first-child li:first-child {
+    padding: 0px 10px 0px 0px;
+    border-left: 0px;
+}
+

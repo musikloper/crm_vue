@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>FA1DC719-1AAC-438D-B0C6-8FCDE5D7E223</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="20" cy="20" r="20"></circle>
+    </defs>
+    <g id="Manager" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Money-1" transform="translate(-407.000000, -527.000000)">
+            <g id="Group-2-Copy-7" transform="translate(407.000000, 527.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Oval" fill="#2F39BD" opacity="0.57" xlink:href="#path-1"></use>
+                <rect id="Rectangle" fill="#2F39BD" mask="url(#mask-2)" x="0" y="14" width="42" height="26"></rect>
+                <path d="M18.5876715,20.9744365 C16.5398007,20.5495716 15,18.722875 15,16.5338346 C15,14.0298669 17.0147186,12 19.5,12 C21.9852814,12 24,14.0298669 24,16.5338346 C24,18.6350167 22.5813203,20.4023571 20.6563836,20.9165727 L21.5,29.1278195 L17.75,29.1278195 L18.5876715,20.9744365 Z" id="Combined-Shape" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                <path d="M27.5876715,20.9744365 C25.5398007,20.5495716 24,18.722875 24,16.5338346 C24,14.0298669 26.0147186,12 28.5,12 C30.9852814,12 33,14.0298669 33,16.5338346 C33,18.6350167 31.5813203,20.4023571 29.6563836,20.9165727 L30.5,29.1278195 L26.75,29.1278195 L27.5876715,20.9744365 Z" id="Combined-Shape-Copy-2" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                <path d="M9.58767155,20.9744365 C7.53980072,20.5495716 6,18.722875 6,16.5338346 C6,14.0298669 8.01471863,12 10.5,12 C12.9852814,12 15,14.0298669 15,16.5338346 C15,18.6350167 13.5813203,20.4023571 11.6563836,20.9165727 L12.5,29.1278195 L8.75,29.1278195 L9.58767155,20.9744365 Z" id="Combined-Shape-Copy" fill="#FFFFFF" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

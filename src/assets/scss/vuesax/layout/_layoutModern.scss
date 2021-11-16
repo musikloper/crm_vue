@@ -1,0 +1,100 @@
+/*=========================================================================================
+    File Name: _layoutModern.scss
+    Description: Default layout styles
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuesax Admin - VueJS Dashboard Admin Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+
+
+/////////////////////////////////////////////////////////
+// NAVBAR
+/////////////////////////////////////////////////////////
+.vs-navbar.vx-navbar {
+    padding: .8rem 1rem;
+    width: calc(100% - 260px - 4.4rem);
+    position: fixed;
+    border-radius: .5rem;
+    transition: all .5s;
+    z-index: 10000;
+
+    &.navbar-reduced {
+        width: calc(100% - #{$reduced-sidebar-width} - 4.4rem);
+    }
+
+    &.navbar-full {
+        width: calc(100% - 4.4rem);
+    }
+}
+
+
+
+/////////////////////////////////////////////////////////
+// CONTENT AREA
+/////////////////////////////////////////////////////////
+#content-area {
+    margin-left: 260px;
+    height: 100%;
+    transition: margin-left 0.5s;
+
+    .content-wrapper{
+        min-height: calc(100vh - 3.5rem);
+    }
+
+    &.content-area-reduced {
+        margin-left: $reduced-sidebar-width;
+    }
+
+    &.content-area-full {
+        margin-left: 0px;
+    }
+
+    .vx-navbar__search-input {
+        input {
+            border: none !important;
+        }
+
+        input:focus {
+            box-shadow: none;
+        }
+    }
+}
+.mx-datepicker-popup{
+    z-index: 55000;
+}
+.router-view {
+    position: relative;
+    // padding: $spacer;
+
+    .router-content {
+        // margin-top: 5.5rem;
+        .navTop{
+            text-align: right;
+            width: 100%;
+            min-height: 82px; 
+            border-bottom: 1px solid #ebebeb; 
+            padding: 1em; 
+            margin-bottom: 1em;
+            position: sticky;
+            top: 0px;
+            background-color: rgb(248, 248, 248);
+            z-index: 500;
+            .navTopItems{
+                margin-right: 10px; 
+                line-height: 54px; 
+                font-size: 16px; 
+                font-weight: 500;
+                .mx-input{
+                    height: 39px;
+                }
+            }
+        }
+    }
+
+    .content-area__heading {
+        h2{
+            color: #636363;
+        }
+    }
+}

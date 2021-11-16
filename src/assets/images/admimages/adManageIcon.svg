@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>B1A0461B-7D02-4D97-BD44-5A3D040FE37E</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Manager" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mission-Building" transform="translate(-48.000000, -323.000000)">
+            <g id="Navigation-/-menu">
+                <g id="credit_card-24px" transform="translate(46.000000, 319.000000)">
+                    <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                    <path d="M20,4 L4,4 C2.89,4 2.01,4.89 2.01,6 L2,18 C2,19.11 2.89,20 4,20 L20,20 C21.11,20 22,19.11 22,18 L22,6 C22,4.89 21.11,4 20,4 Z M20,18 L4,18 L4,12 L20,12 L20,18 Z M20,8 L4,8 L4,6 L20,6 L20,8 Z" id="Shape" fill="#ABABAB"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
